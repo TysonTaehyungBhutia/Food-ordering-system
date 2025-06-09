@@ -1,0 +1,405 @@
+#ITEM JAVA SCRIPT
+const foodItem= [
+    {
+    id: 1,
+    name: 'SAMOSA',
+    category : 'FOOD',
+    rating : 4.3,
+    price: 13,
+    img: 'Samosachutney.jpg',
+    quantity: 1
+},
+{
+    id: 2,
+    name: 'BREAD & BUTTER',
+    category : 'FOOD',
+    rating : 4.3,
+    price: 15,
+    img: 'download (2).jpeg',
+    quantity: 1
+},
+{
+    id: 3,
+    name: 'MAGGIE',
+    category : 'FOOD',
+    rating : 4.3,
+    price: 18,
+    img: 'download (3).jpeg',
+    quantity: 1
+},
+{
+    id: 4,
+    name: 'NOODLES',
+    category : 'FOOD',
+    rating : 4.3,
+    price: 15,
+    img: 'download (4).jpeg',
+    quantity: 1
+},
+{
+    id: 5,
+    name: 'COLD COFFEE',
+    category : 'FOOD',
+    rating : 4.3,
+    price: 10,
+    img: 'download (5).jpeg',
+    quantity: 1
+},
+{
+    id: 6,
+    name: 'FRENCH FRY',
+    category : 'FOOD',
+    rating : 4.3,
+    price: 12,
+    img: 'download (6).jpeg',
+    quantity: 1
+},
+{
+    id: 7,
+    name: 'BUN',
+    category : 'FOOD',
+    rating : 4.3,
+    price: 13,
+    img: 'download (7).jpeg',
+    quantity: 1
+},
+{
+    id: 8,
+    name: 'ICE CREAM',
+    category : 'FOOD',
+    rating : 4.3,
+    price: 20,
+    img: 'download (8).jpeg',
+    quantity: 1
+},
+{
+    id: 9,
+    name: 'ICE TEA',
+    category : 'FOOD',
+    rating : 4.3,
+    price: 15,
+    img: 'download (9).jpeg',
+    quantity: 1
+},
+{
+    id: 10,
+    name: 'Chicken Roast',
+    category : 'chicken',
+    rating : 4.3,
+    price: 11,
+    img: 'download (10).jpeg',
+    quantity: 1
+},
+{
+    id: 11,
+    name: 'Chicken Curry',
+    category : 'chicken',
+    rating : 4.3,
+    price: 10,
+    img: 'download (11).jpeg',
+    quantity: 1
+},
+{
+    id: 12,
+    name: 'Chicken Do Pyaza',
+    category : 'chicken',
+    rating : 4.3,
+    price: 14,
+    img: 'download (12).jpeg',
+    quantity: 1
+},
+{
+    id: 13,
+    name: 'Chicken Masala',
+    category : 'chicken',
+    rating : 4.3,
+    price: 12,
+    img: 'download (13).jpeg',
+    quantity: 1
+},
+{
+    id: 14,
+    name: 'Handi Chicken',
+    category : 'chicken',
+    rating : 4.3,
+    price: 17,
+    img: 'download (14).jpeg',
+    quantity: 1
+},
+{
+    id: 15,
+    name: 'Murgh Musallam',
+    category : 'chicken',
+    rating : 4.3,
+    price: 20,
+    img: 'download (15).jpeg',
+    quantity: 1
+},
+{
+    id: 16,
+    name: 'Matar Paneer',
+    category : 'paneer',
+    rating : 4.3,
+    price: 15,
+    img: 'download (16).jpeg',
+    quantity: 1
+
+},
+{
+    id: 17,
+    name: 'Palak Paneer',
+    category : 'paneer',
+    rating : 4.3,
+    price: 10,
+    img: 'Palak-Paneer.jpg',
+    quantity: 1
+},
+{
+    id: 18,
+    name: 'Paneer Butter Masala',
+    category : 'paneer',
+    rating : 4.3,
+    price: 15,
+    img: 'Paneer-Butter-Masala.jpg',
+    quantity: 1
+
+},
+{
+    id: 19,
+    name: 'Paneer Do Pyaza',
+    category : 'paneer',
+    rating : 4.3,
+    price: 12,
+    img: 'paneer-do-pyaza.jpg',
+    quantity: 1
+
+},
+{
+    id: 20,
+    name: 'Hyderabadi Paneer',
+    category : 'paneer',
+    rating : 4.3,
+    price: 8,
+    img: 'download (17).jpeg',
+    quantity: 1
+},
+{
+    id: 21,
+    name: 'Paneer Lababdar',
+    category : 'paneer',
+    rating : 4.3,
+    price: 7,
+    img: 'paneer-lababdar.jpg',
+    quantity: 1
+},
+{
+    id: 22,
+    name: 'Shahi Paneer',
+    age: '32',
+    category : 'paneer',
+    rating : 4.3,
+    price: 5,
+    img: 'download (18).jpeg',
+    quantity: 1
+},
+{
+    id: 23,
+    name: 'Navratan Korma',
+    category : 'vegetable',
+    rating : 4.3,
+    price: 8,
+    img: 'download (19).jpeg',
+    quantity: 1
+},
+{
+    id: 24,
+    name: 'Veg Jalfrezi',
+    category : 'vegetable',
+    rating : 4.3,
+    price: 7,
+    img: 'Vegetable-Jalfrezi-500x375.jpg',
+    quantity: 1
+},
+{
+    id: 25,
+    name: 'Veg Biryani',
+    category : 'vegetable',
+    rating : 4.3,
+    price: 5,
+    img: 'download (20).jpeg',
+    quantity: 1
+},
+{
+    id: 26,
+    name: 'Veg Curry',
+    category : 'vegetable',
+    rating : 4.3,
+    price: 7,
+    img: 'download (21).jpeg',
+    quantity: 1
+},
+{
+    id: 27,
+    name: 'Veg Kolhapur',
+    category : 'vegetable',
+    rating : 4.3,
+    price: 10,
+    img: 'download (22).jpeg',
+    quantity: 1
+},
+{
+    id: 28,
+    name: 'Veg Masala',
+    category : 'vegetable',
+    rating : 4.3,
+    price: 4,
+    img: 'download (23).jpeg',
+    quantity: 1
+},
+{
+    id: 29,
+    name: 'Veg Pakora',
+    category : 'vegetable',
+    rating : 4.3,
+    price: 4,
+    img: 'vegetable-pakora-recipe.jpg',
+    quantity: 1
+},
+{
+    id: 30,
+    name: 'Momos',
+    category : 'chinese',
+    rating : 4.3,
+    price: 8,
+    img: 'download (24).jpeg',
+    quantity: 1
+},
+{
+    id: 31,
+    name: 'Chicken Manchurian',
+    category : 'chinese',
+    rating : 4.3,
+    price: 7,
+    img: 'download (25).jpeg',
+    quantity: 1
+},
+{
+    id: 32,
+    name: 'Chili Chicken',
+    category : 'chinese',
+    rating : 4.3,
+    price: 5,
+    img: 'download (26).jpeg',
+    quantity: 1
+},
+{
+    id: 33,
+    name: 'Chowmein',
+    category : 'chinese',
+    rating : 4.3,
+    price: 16,
+    img: 'Chicken-Chow-Mein-4-500x500.jpg',
+    quantity: 1
+},
+{
+    id: 34,
+    name: 'Spring Roll',
+    category : 'chinese',
+    rating : 4.3,
+    price: 14,
+    img: 'spring-rolls-500x375.jpg',
+    quantity: 1
+},
+{
+    id: 35,
+    name: 'Szechuan Chicken',
+    category : 'chinese',
+    rating : 4.3,
+    price: 10,
+    img: 'download (27).jpeg',
+    quantity: 1
+},
+{
+    id: 36,
+    name: 'Fried Rice',
+    category : 'chinese',
+    rating : 4.3,
+    price: 8,
+    img: 'download (28).jpeg',
+    quantity: 1
+},
+{
+    id: 37,
+    name: 'Butter Masala Dosa',
+    category : 'south indian',
+    rating : 4.3,
+    price: 18,
+    img: 'download (29).jpeg',
+    quantity: 1
+},
+{
+    id: 38,
+    name: 'Idli',
+    category : 'south indian',
+    rating : 4.3,
+    price: 20,
+    img: 'idli-recipe.jpg',
+    quantity: 1
+},
+{
+    id: 39,
+    name: 'Masala Dosa',
+    category : 'south indian',
+    rating : 4.3,
+    price: 12,
+    img: 'download (30).jpeg',
+    quantity: 1
+},
+{
+    id: 40,
+    name: 'Mysore Bonda',
+    category : 'south indian',
+    rating : 4.3,
+    price: 10,
+    img: 'download (31).jpeg',
+    quantity: 1
+},
+{
+    id: 41,
+    name: 'Onion Uttapam',
+    category : 'south indian',
+    rating : 4.3,
+    price: 15,
+    img: 'download (32).jpeg',
+    quantity: 1
+},
+{
+    id: 42,
+    name: 'Plain Dosa',
+    category : 'south indian',
+    rating : 4.3,
+    price: 40,
+    img: 'download (33).jpeg',
+    quantity: 1
+},
+{
+    id: 43,
+    name: 'Rava Uttapam',
+    category : 'south indian',
+    rating : 4.3,
+    price: 25,
+    img: 'download (34).jpeg',
+    quantity: 1
+},
+{
+    id: 44,
+    name: 'Sambhar Vada',
+    category : 'south indian',
+    rating : 4.3,
+    price: 34,
+    img: 'download (35).jpeg',
+    quantity: 1
+},
+]
+
+export {foodItem};
