@@ -1,0 +1,44 @@
+#PAYPAGE
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+<body>
+    <img src="Payment-success.png" alt="Paris" style="width:50%;">
+</body>
+<style>
+    h1 {text-align: center;}
+    </style>
+    <body>
+    <h1>THANK YOU</h1>
+    </body>
+    <style>
+</style>
+<style>
+  a:link, a:visited {
+    background-color: #54da6a;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+  }
+  </style>
+  </head>
+  <body>
+
+    <a href="HTML FOOD.html" target="_blank">HOME</a>
+  
+  </body>
+</head>
+</html>
